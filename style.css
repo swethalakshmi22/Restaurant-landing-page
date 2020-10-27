@@ -63,6 +63,8 @@ a:hover, a:active {
   background: none;
 }
 
+/*-----SECTION : HERO-----*/
+
 .hero {
   background: url(images/hamburger.jpg) no-repeat left;
   background-size: cover;
@@ -72,7 +74,7 @@ a:hover, a:active {
 }
 
 .heading {
-  color:rgba(0, 0, 0, 0.76);
+  color:rgba(0, 0, 0, 0.678);
   display: flex;
   align-items: flex-end;
   margin-left: 1rem;
@@ -185,6 +187,39 @@ footer p { padding: 1.5rem 0; }
 /*-----MEDIA QUERIES-----*/
 
 @media (min-width: 850px) {
+  
+  .checkbtn { display: none; }
+
+  nav .label-logo { padding: 0 1.5rem; }
+
+  nav ul{
+    display: block;
+    line-height: 0;
+    display: flex;
+    justify-content: flex-end;
+    background: none;
+    padding: 0;
+    top: 1.7rem;
+    left: -1rem;
+  }
+
+  nav li { 
+    width: 5.5rem;
+  }
+
+  nav a:hover, nav a:active { 
+    background-color: rgba(128, 128, 128, 0.658);
+    color: black;
+    padding: 0.3rem 0.7rem;
+  }
+  
+  /*-----SECTION : HERO-----*/
+  
+  .heading {
+    margin-left: 1.2rem;
+    height: 48vh;
+  }
+
   /* .about .about-img {
     background: url(images/tablesetting2.jpg) no-repeat center;
     background-size: cover;
